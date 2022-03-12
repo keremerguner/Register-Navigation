@@ -2,11 +2,11 @@ import React from 'react';
 import {SafeAreaView, Text, StyleSheet} from 'react-native';
 
 const MemberResult = ({route}) => {
-  const {user} = route.params;
+  //const {user} = route.params;
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.text}>Hoş geldin, {user.userName}</Text>
+      <Text style={styles.text}>Hoş geldiniz </Text>
     </SafeAreaView>
   );
 };
@@ -22,6 +22,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 30,
     fontStyle: 'italic',
-    color:'black',
+    color: 'black',
   },
 });

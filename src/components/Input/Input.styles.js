@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
   container: {
-      margin: 10
+      margin: 6
   },
   input_container: {
     borderWidth: 1,
@@ -13,6 +13,7 @@ export default StyleSheet.create({
   label:{
       fontSize:15,
       fontWeight:'bold',
-      marginLeft:10
+      marginLeft:10,
+      color:'darkslategrey'
   }
 });
